@@ -1,0 +1,17 @@
+[project]
+name = "beans-extra"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beancount>=3.1.0",
+    "pydantic>=2.11.7",
+    "sqlalchemy>=2.0.42",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.17.1",
+    "ruff>=0.12.7",
+]
